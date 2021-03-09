@@ -21,7 +21,7 @@ Asena.addCommand({pattern: 'meme ?(.*)', fromMe: true}, (async (message, match) 
         topText = match[1];
     }
 
-    var info = await message.reply('```Medya indiriliyor & sticker yapılıyor...```');
+    var info = await message.reply('```iravum en ``');
     
     var location = await message.client.downloadAndSaveMediaMessage({
         key: {
